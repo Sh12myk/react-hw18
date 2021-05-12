@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+body {
+	background: radial-gradient(circle, rgba(232,225,64,0.8855917366946778) 12%, rgba(0,0,0,1) 52%, rgba(255,248,47,0.38699229691876746) 55%, rgba(6,6,6,0.8687850140056023) 60%);;
+	height: 100vh;
+}
+.timer {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	margin: 270px 0
+}
+button {
+	width: 300px;
+	height: 70px;
+	font-size: 3em;
+	margin: auto;
+	color: #940000;
+	background-color: azure;
+	border: 3px dotted red;
+	box-shadow: 1px 3px #888;
+	border-radius: 5px;
+	transition: 0.1s
+}
+button, button:active, button:focus {
+	outline: none;
+}
+button:hover {
+	transform: scale(0.9);
+	background-color: #000000
+}
+.time {
+    font-family: monospace;
+	font-size: 7.3em;
+	font-weight: 600;
+	margin-bottom: 10px
+}
+/*# sourceMappingURL=main.e54ffd2d.chunk.css.map */
